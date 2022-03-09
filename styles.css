@@ -1,0 +1,13 @@
+#container {
+    display: flex;
+    max-width: 960px;
+}
+
+.column {
+    flex: 1;
+}
+
+.box {
+    padding-top: 100%;
+}
+/* for some reason, padding top doesn't truly make equal-height boxes */
